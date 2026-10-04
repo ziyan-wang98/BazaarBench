@@ -1,0 +1,72 @@
+{
+  "brand_entropy": 7.3271,
+  "brand_top": {
+    "amazon": 666,
+    "apple": 3503,
+    "beats-by-dr-dre": 321,
+    "fitbit": 284,
+    "garmin": 228,
+    "google": 676,
+    "lg": 423,
+    "microsoft": 326,
+    "motorola": 250,
+    "nintendo": 862,
+    "samsung": 1915,
+    "sony": 1011
+  },
+  "category_counts": {
+    "books": 35,
+    "clothing": 2,
+    "collectibles-figures": 5,
+    "collectibles-sports": 261,
+    "collectibles-tcg": 4,
+    "electronics-audio": 3619,
+    "electronics-cameras": 885,
+    "electronics-gaming": 1828,
+    "electronics-laptops": 10,
+    "electronics-phones": 5303,
+    "electronics-tablets": 863,
+    "furniture": 97,
+    "garden": 22,
+    "home-goods": 5971,
+    "jewelry": 1164,
+    "kids": 21,
+    "musical-instruments": 20,
+    "pets": 73,
+    "sporting-goods": 147,
+    "tools": 1,
+    "vehicles-bikes": 9,
+    "vehicles-cars": 27
+  },
+  "category_entropy": 2.6799,
+  "condition_counts": {
+    "good": 20367
+  },
+  "dataset_csv": "datasets/marketing_sample_for_ebay_com-ebay_com_product__20200601_20200831__30k_data.csv",
+  "items_loaded": 20367,
+  "price_cents": {
+    "count": 20367,
+    "max": 500000.0,
+    "mean": 31308.432,
+    "min": 100.0,
+    "p50": 11600.0,
+    "p90": 65000.0
+  },
+  "rating": {
+    "count": 15001,
+    "max": 5.0,
+    "mean": 4.604,
+    "min": 1.0,
+    "p50": 4.7,
+    "p90": 5.0
+  },
+  "row_id_coverage": 1.0,
+  "seller_num_reviews": {
+    "count": 0,
+    "max": null,
+    "min": null,
+    "p50": null,
+    "p90": null
+  },
+  "source": "marketing_sample_for_ebay_com-ebay_com_product__20200601_20200831__30k_data.csv"
+}

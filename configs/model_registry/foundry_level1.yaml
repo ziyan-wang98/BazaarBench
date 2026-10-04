@@ -1,0 +1,132 @@
+schema_version: 1
+provider: foundry
+
+trapi:
+  instance_env: BAZAAR_TRAPI_INSTANCE
+  default_instance: gcr/shared
+  auth_mode_env: BAZAAR_TRAPI_AUTH_MODE
+  default_auth_mode: azure_cli
+  base_url_env: BAZAAR_TRAPI_BASE_URL
+  api_key_env: BAZAAR_TRAPI_API_KEY
+  default_base_url: https://trapi.research.microsoft.com/gcr/shared/openai/v1/
+  base_url_candidates:
+    - https://trapi.research.microsoft.com/gcr/batch/openai/v1/
+    - https://trapi.research.microsoft.com/gcr/shared/openai/v1/
+    - https://trapi.research.microsoft.com/msrc/shared/openai/v1/
+    - https://trapi.research.microsoft.com/redmond/interactive/openai/v1/
+
+foundry:
+  auth_mode_env: AZURE_FOUNDRY_AUTH_MODE
+  default_auth_mode: azure_cli
+  base_url_env: AZURE_FOUNDRY_BASE_URL
+  api_key_env: AZURE_FOUNDRY_API_KEY
+  default_base_url: https://faimas-models.services.ai.azure.com/openai/v1
+
+base_model_key: gpt55
+treatment_model_keys:
+  - gpt55
+  - gpt54mini
+  - deepseekv4pro
+  - gptoss120b
+  - mistral3
+  - gpt54
+
+defaults:
+  provider: foundry
+  reasoning_effort: high
+  max_tokens: 8192
+  timeout_s: 600
+  retries: 8
+  recommended_parallelism: 16
+
+models:
+  gpt55:
+    role: base
+    provider: trapi
+    model_name: gpt-5.5_2026-04-24
+    endpoint_mode: responses
+    supports_responses: true
+    reasoning_effort: high
+    max_tokens: 8192
+    timeout_s: 1200
+    retries: 20
+    recommended_parallelism: 4
+    status: healthy
+
+  gpt54mini:
+    role: treatment
+    provider: foundry
+    model_name: gpt-5.4-mini
+    endpoint_mode: responses
+    supports_responses: true
+    reasoning_effort: high
+    max_tokens: 8192
+    timeout_s: 600
+    retries: 8
+    recommended_parallelism: 24
+    status: live_smoke_ok
+
+  deepseekv4pro:
+    role: treatment
+    provider: foundry
+    model_name: DeepSeek-V4-Pro
+    endpoint_mode: responses
+    supports_responses: true
+    reasoning_effort: high
+    max_tokens: 8192
+    timeout_s: 600
+    retries: 8
+    recommended_parallelism: 24
+    status: user_verified_azure_cli
+
+  gptoss120b:
+    role: treatment
+    provider: foundry
+    model_name: gpt-oss-120b
+    endpoint_mode: chat
+    supports_responses: false
+    reasoning_effort: high
+    max_tokens: 8192
+    timeout_s: 600
+    retries: 8
+    recommended_parallelism: 24
+    status: user_verified
+
+  mistral3:
+    role: treatment
+    provider: foundry
+    model_name: Mistral-Large-3
+    endpoint_mode: responses
+    supports_responses: true
+    reasoning_effort: high
+    max_tokens: 8192
+    timeout_s: 600
+    retries: 8
+    recommended_parallelism: 24
+    status: user_verified
+
+  grok41fastreasoning:
+    role: treatment
+    provider: foundry
+    model_name: grok-4-1-fast-reasoning
+    endpoint_mode: responses
+    supports_responses: true
+    reasoning_effort: high
+    max_tokens: 8192
+    timeout_s: 900
+    retries: 8
+    recommended_parallelism: 16
+    status: user_verified
+
+  gpt54:
+    role: treatment_strong
+    provider: foundry
+    model_name: gpt-5.4
+    endpoint_mode: responses
+    supports_responses: true
+    reasoning_effort: high
+    max_tokens: 12288
+    timeout_s: 900
+    retries: 8
+    recommended_parallelism: 16
+    status: user_verified

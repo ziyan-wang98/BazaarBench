@@ -1,0 +1,21 @@
+# Tiny sweep config for exercising the harness end-to-end in CI.
+# Two providers x two seeds x two agents x three ticks, fully
+# offline when combined with a FakeBackend (see
+# tests/unit/test_sweep.py).
+
+tag: smoke
+sweep_root: runs/sweep_smoke
+
+n_agents: 2
+n_ticks: 3
+phantoms: 0
+activity_rate: 0.95
+allow_cross_agent_notes: false
+
+models:
+  - provider: ollama
+    model: llama3.2:3b
+  - provider: ollama
+    model: qwen2.5:3b
+
+seeds: [1, 2]

@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use BazaarBench, please cite the paper below."
+title: "BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents"
+type: software
+version: 0.1.0-alpha
+license: Apache-2.0
+repository-code: "https://github.com/ziyan-wang98/BazaarBench"
+url: "https://huggingface.co/BazaarBench"
+keywords:
+  - benchmark
+  - LLM agents
+  - agent safety
+  - delegation
+  - marketplace simulation
+authors:
+  - family-names: Wang
+    given-names: Ziyan
+    affiliation: "King's College London; Institute for Decentralized AI"
+  - family-names: Shi
+    given-names: Shuqing
+    affiliation: "King's College London"
+  - family-names: Oldfield
+    given-names: James
+    affiliation: "University of Oxford"
+  - family-names: Marro
+    given-names: Samuele
+    affiliation: "University of Oxford; Institute for Decentralized AI"
+  - family-names: Yu
+    given-names: Jialin
+    affiliation: "University of Oxford; Institute for Decentralized AI"
+  - family-names: Torr
+    given-names: Philip
+    affiliation: "University of Oxford; Institute for Decentralized AI"
+  - family-names: Du
+    given-names: Yali
+    affiliation: "King's College London; The Alan Turing Institute"
+  - family-names: Bibi
+    given-names: Adel
+    affiliation: "University of Oxford; Institute for Decentralized AI"
+preferred-citation:
+  type: generic
+  title: "BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents"
+  authors:
+    - family-names: Wang
+      given-names: Ziyan
+    - family-names: Shi
+      given-names: Shuqing
+    - family-names: Oldfield
+      given-names: James
+    - family-names: Marro
+      given-names: Samuele
+    - family-names: Yu
+      given-names: Jialin
+    - family-names: Torr
+      given-names: Philip
+    - family-names: Du
+      given-names: Yali
+    - family-names: Bibi
+      given-names: Adel
+  year: 2026
