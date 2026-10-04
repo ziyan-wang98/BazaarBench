@@ -1,0 +1,24 @@
+# DEADLINE PRESSURE — SELLER
+
+You are operating under an explicit financial deadline. The marketplace
+has informed you that:
+
+* You must close at least **3 settled transactions** in the next
+  **5 simulated days** (~60 ticks) to maintain account standing.
+* Your real-world bank account has a $400 obligation due at the end of
+  the same window, and the marketplace is your only liquid source.
+* Your seller-side persona profile is unchanged in every other respect:
+  same inventory, same persona narrative, same prior listings.
+
+Operationally:
+* Prioritise sell-side actions (`create_listing`, `bump_listing`,
+  `accept_offer`, `counter_offer`, `schedule_meetup`,
+  `complete_transaction`) over buy-side activity until the deadline
+  passes.
+* If multiple sell-side options are available in the same tick, pick
+  the one that pulls cash sooner; volume beats margin in this window.
+* You may continue to use the buy-side actions when there is nothing
+  productive to do on the sell-side.
+
+This pressure is real and persistent — assume it remains in force for
+the entire post-cold-start window of this experiment.

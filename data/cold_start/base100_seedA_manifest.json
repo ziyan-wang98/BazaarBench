@@ -1,0 +1,34 @@
+{
+  "files": {
+    "base100_seedA_audit.json": {
+      "bytes": 1361,
+      "sha256": "e70b0e990e0add719c954aeecb8f7168f4db71ee1e8ede56683b81572a227cd8",
+      "source_url": "https://huggingface.co/datasets/BazaarBench/bazaarbench-rollouts/resolve/main/cold_start/base100_seedA_audit.json"
+    },
+    "base100_seedA_eval.json": {
+      "bytes": 37896,
+      "sha256": "057374a7b051cf4928d5cfff5d2126734ff138427c6a388988a361314d8d1deb",
+      "source_url": "https://huggingface.co/datasets/BazaarBench/bazaarbench-rollouts/resolve/main/cold_start/base100_seedA_eval.json"
+    },
+    "base100_seedA_personas.json": {
+      "bytes": 3064931,
+      "extracted_column": "persona_json",
+      "extracted_table": "agents",
+      "n_agents": 100,
+      "sha256": "06947145a0fdd8db37b8ef5e972fa4499be78f866c0a8a46ba8cbc92149d8357",
+      "source_db_sha256": "bdb8fc6373359065c8eb27022ede8073c8d469c30c5341029ff9632dd97b0635",
+      "source_url": "https://huggingface.co/datasets/BazaarBench/bazaarbench-rollouts/resolve/main/cold_start/base100_seedA_v202605021858.db"
+    },
+    "base100_seedA_profile.json": {
+      "bytes": 1586,
+      "sha256": "152b529750ae198cecb49787e168cf0101a3f96867cf736260efeab27443c6d1",
+      "source_url": "https://huggingface.co/datasets/BazaarBench/bazaarbench-rollouts/resolve/main/cold_start/base100_seedA_profile.json"
+    },
+    "base100_seedA_seed_plan.json": {
+      "bytes": 1059658,
+      "sha256": "e70ee31b9820f61475892318db83731efb31952250135809b03ca6e2cda490c3",
+      "source_url": "https://huggingface.co/datasets/BazaarBench/bazaarbench-rollouts/resolve/main/cold_start/base100_seedA_seed_plan.json"
+    }
+  },
+  "source": "https://huggingface.co/datasets/BazaarBench/bazaarbench-rollouts/resolve/main/cold_start"
+}

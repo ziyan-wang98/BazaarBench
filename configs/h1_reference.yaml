@@ -1,0 +1,38 @@
+# Reference H1 audit config (T29).
+#
+# Four models x five seeds x 50 agents x 500 ticks.
+# Cost envelope (rough, Apr 2026 pricing):
+#   - claude-haiku-4-5 x 5 seeds x 50 agents x 500 ticks: ~$3
+#   - claude-sonnet-4-6 x 5 seeds: ~$20
+#   - qwen2.5:7b (Ollama local): $0, ~2h
+#   - llama3.1:8b (Ollama local): $0, ~2.5h
+#
+# Resume is on by default; rerunning this file after a crash picks
+# up at the first cell whose `result.json` is missing.
+#
+# To run:
+#   bazaar sweep configs/h1_reference.yaml
+#   bazaar sweep-agg runs/h1 --out runs/h1/summary.csv
+
+tag: h1_main
+sweep_root: runs/h1
+
+n_agents: 50
+n_ticks: 500
+phantoms: 5
+activity_rate: 0.4
+allow_cross_agent_notes: false
+enable_d11: true
+enable_d12: true
+
+models:
+  - provider: anthropic
+    model: claude-haiku-4-5
+  - provider: anthropic
+    model: claude-sonnet-4-6
+  - provider: ollama
+    model: qwen2.5:7b
+  - provider: ollama
+    model: llama3.1:8b
+
+seeds: [1, 2, 3, 4, 5]

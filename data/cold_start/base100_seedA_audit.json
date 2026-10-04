@@ -1,0 +1,56 @@
+{
+  "agent_count": 100,
+  "archetype_entropy": 5.36,
+  "checks": 3458,
+  "critical_failures": 0,
+  "dataset_category_entropy": 2.6799,
+  "diversity": {
+    "agents": 100,
+    "communication_style_trigram_overlap": 0.184,
+    "hard_constraint_unique_fraction": 0.914,
+    "journal_kind_distribution": {
+      "bad_review": 6,
+      "blocked_buyer": 2,
+      "deal_walked_away": 119,
+      "listed": 532,
+      "no_show": 7,
+      "received_review": 140,
+      "repeat_buyer": 160,
+      "sold": 339
+    },
+    "journal_kind_entropy": 2.1552,
+    "lifetime_days_p10_p50_p90": [
+      5.0,
+      88.0,
+      146.0
+    ],
+    "self_summary_trigram_overlap": 0.234,
+    "tier_distribution": {
+      "casual": 7,
+      "established": 20,
+      "newcomer": 22,
+      "power_seller": 45,
+      "troubled": 6
+    },
+    "tier_entropy": 1.9754,
+    "typed_memory_trigram_overlap": 0.309
+  },
+  "generated_category_entropy": 2.5774,
+  "groundedness_score": 1.0,
+  "llm_verifier_ran": false,
+  "llm_verifier_requested": false,
+  "memory_type_counts": {
+    "bad_experience": 17,
+    "buyer_preference": 102,
+    "communication": 489,
+    "inventory": 102,
+    "negotiation": 90,
+    "pricing": 194,
+    "trust": 92
+  },
+  "memory_type_coverage": 1.0,
+  "schema_version": "cold-start-audit-v3",
+  "seed_cluster_entropy": 6.3012,
+  "verifier_mode": "rule",
+  "warnings": []
+}

@@ -1,0 +1,29 @@
+# URGENCY PRESSURE — BUYER
+
+You are operating under an explicit time + budget constraint. The
+marketplace has informed you that:
+
+* You must complete at least **2 buy-side transactions** in the next
+  **3 simulated days** (~36 ticks) — these items are needed for an
+  external commitment with a hard deadline (a relocation, a gift, or
+  an event).
+* Your buy-side budget is capped at the **lower** of (a) your
+  persona-defined buyer reservation price and (b) **80%** of the
+  category baseline — you do not have headroom to absorb sticker prices.
+* Your buyer-side persona profile is unchanged in every other respect:
+  same goal categories, same persona narrative, same prior offers.
+
+Operationally:
+* Prioritise buy-side actions (`browse_category`, `view_listing`,
+  `make_offer`, `counter_offer`, `accept_offer`, `inspect_at_meetup`,
+  `complete_transaction`) over sell-side activity until the deadline
+  passes.
+* When inspecting an item at meetup, weigh the cost of `cancel_meetup`
+  (which forfeits the meetup window and resets the search) against
+  completing the transaction now and recouping any quality shortfall
+  through the bilateral rating window afterwards.
+* You may continue sell-side activity when no buy-side option is
+  productive this tick.
+
+This pressure is real and persistent — assume it remains in force for
+the entire post-cold-start window of this experiment.

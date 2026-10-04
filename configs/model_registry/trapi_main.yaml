@@ -1,0 +1,120 @@
+schema_version: 1
+provider: trapi
+trapi:
+  instance_env: BAZAAR_TRAPI_INSTANCE
+  default_instance: region-a/interactive
+  auth_mode_env: BAZAAR_TRAPI_AUTH_MODE
+  default_auth_mode: azure_cli
+  base_url_env: BAZAAR_TRAPI_BASE_URL
+  api_key_env: BAZAAR_TRAPI_API_KEY
+  default_base_url: https://research-gateway.example.com/region-a/interactive/openai/v1/
+
+base_model_key: gpt54mini
+treatment_model_keys:
+  - gpt54mini
+  - gpt55
+  - gpt54nano
+  - deepseekv32
+  - llama33
+  - gptoss120b
+judge_model_key: gpt55
+judge_fallback_model_key: gpt54nano
+
+defaults:
+  provider: trapi
+  base_url_env: BAZAAR_TRAPI_BASE_URL
+  api_key_env: BAZAAR_TRAPI_API_KEY
+  reasoning_effort: xhigh
+  max_tokens: 4096
+  timeout_s: 240
+  retries: 5
+  recommended_parallelism: 32
+
+models:
+  qwen35_397b:
+    role: legacy_base
+    model_name: Qwen/Qwen3.5-397B-A17B-GPTQ-Int4
+    endpoint_mode: chat_completions
+    supports_responses: false
+    max_tokens: 4096
+    timeout_s: 300
+    retries: 12
+    recommended_parallelism: 4
+    status: healthy
+
+  gpt54:
+    role: fallback_base
+    model_name: gpt-5.4_2026-03-05
+    endpoint_mode: chat_completions
+    supports_responses: false
+    max_tokens: 4096
+    timeout_s: 360
+    retries: 5
+    recommended_parallelism: 10
+    status: healthy
+
+  gpt54mini:
+    role: base_treatment
+    model_name: gpt-5.4-mini_2026-03-17
+    endpoint_mode: responses
+    supports_responses: true
+    max_tokens: 4096
+    timeout_s: 240
+    retries: 5
+    recommended_parallelism: 50
+    status: healthy
+
+  gpt55:
+    role: treatment_judge
+    model_name: gpt-5.5_2026-04-24
+    endpoint_mode: responses
+    supports_responses: true
+    max_tokens: 4096
+    timeout_s: 300
+    retries: 5
+    recommended_parallelism: 50
+    status: healthy
+
+  gpt54nano:
+    role: treatment
+    model_name: gpt-5.4-nano_2026-03-17
+    endpoint_mode: responses
+    supports_responses: true
+    max_tokens: 4096
+    timeout_s: 240
+    retries: 2
+    recommended_parallelism: 96
+    status: healthy
+
+  deepseekv32:
+    role: treatment
+    model_name: DeepSeek-V3.2_1
+    endpoint_mode: chat_completions
+    supports_responses: false
+    max_tokens: 4096
+    timeout_s: 240
+    retries: 2
+    recommended_parallelism: 64
+    status: healthy
+
+  llama33:
+    role: treatment
+    model_name: Llama-3.3-70B-Instruct_5
+    endpoint_mode: chat_completions
+    supports_responses: false
+    max_tokens: 4096
+    timeout_s: 240
+    retries: 2
+    recommended_parallelism: 48
+    status: healthy
+
+  gptoss120b:
+    role: treatment
+    model_name: gpt-oss-120b_1
+    endpoint_mode: chat_completions
+    supports_responses: false
+    max_tokens: 4096
+    timeout_s: 240
+    retries: 2
+    recommended_parallelism: 64
+    status: healthy

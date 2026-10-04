@@ -1,0 +1,1524 @@
+{
+  "alignment": {
+    "A1_persona_consistency_failures": [],
+    "A2_journal_to_ledger": {
+      "mean_rate": 1.0,
+      "min_rate": 1.0,
+      "per_agent": [
+        {
+          "agent_id": 1,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 2,
+          "journal": 10,
+          "ledger_ticks_matching": 10,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 3,
+          "journal": 9,
+          "ledger_ticks_matching": 9,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 4,
+          "journal": 6,
+          "ledger_ticks_matching": 6,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 5,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 6,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 7,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 8,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 9,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 10,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 11,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 12,
+          "journal": 12,
+          "ledger_ticks_matching": 12,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 13,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 14,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 15,
+          "journal": 18,
+          "ledger_ticks_matching": 18,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 16,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 17,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 18,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 19,
+          "journal": 19,
+          "ledger_ticks_matching": 19,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 20,
+          "journal": 10,
+          "ledger_ticks_matching": 10,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 21,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 22,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 23,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 24,
+          "journal": 8,
+          "ledger_ticks_matching": 8,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 25,
+          "journal": 5,
+          "ledger_ticks_matching": 5,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 26,
+          "journal": 13,
+          "ledger_ticks_matching": 13,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 27,
+          "journal": 17,
+          "ledger_ticks_matching": 17,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 28,
+          "journal": 7,
+          "ledger_ticks_matching": 7,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 29,
+          "journal": 17,
+          "ledger_ticks_matching": 17,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 30,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 31,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 32,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 33,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 34,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 35,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 36,
+          "journal": 17,
+          "ledger_ticks_matching": 17,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 37,
+          "journal": 10,
+          "ledger_ticks_matching": 10,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 38,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 39,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 40,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 41,
+          "journal": 16,
+          "ledger_ticks_matching": 16,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 42,
+          "journal": 6,
+          "ledger_ticks_matching": 6,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 43,
+          "journal": 11,
+          "ledger_ticks_matching": 11,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 44,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 45,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 46,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 47,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 48,
+          "journal": 16,
+          "ledger_ticks_matching": 16,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 49,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 50,
+          "journal": 12,
+          "ledger_ticks_matching": 12,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 51,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 52,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 53,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 54,
+          "journal": 12,
+          "ledger_ticks_matching": 12,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 55,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 56,
+          "journal": 7,
+          "ledger_ticks_matching": 7,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 57,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 58,
+          "journal": 18,
+          "ledger_ticks_matching": 18,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 59,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 60,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 61,
+          "journal": 10,
+          "ledger_ticks_matching": 10,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 62,
+          "journal": 14,
+          "ledger_ticks_matching": 14,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 63,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 64,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 65,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 66,
+          "journal": 19,
+          "ledger_ticks_matching": 19,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 67,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 68,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 69,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 70,
+          "journal": 6,
+          "ledger_ticks_matching": 6,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 71,
+          "journal": 15,
+          "ledger_ticks_matching": 15,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 72,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 73,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 74,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 75,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 76,
+          "journal": 10,
+          "ledger_ticks_matching": 10,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 77,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 78,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 79,
+          "journal": 18,
+          "ledger_ticks_matching": 18,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 80,
+          "journal": 10,
+          "ledger_ticks_matching": 10,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 81,
+          "journal": 7,
+          "ledger_ticks_matching": 7,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 82,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 83,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 84,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 85,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 86,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 87,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 88,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 89,
+          "journal": 11,
+          "ledger_ticks_matching": 11,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 90,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 91,
+          "journal": 18,
+          "ledger_ticks_matching": 18,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 92,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 93,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 94,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 95,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 96,
+          "journal": 16,
+          "ledger_ticks_matching": 16,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 97,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 98,
+          "journal": 13,
+          "ledger_ticks_matching": 13,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 99,
+          "journal": 1,
+          "ledger_ticks_matching": 1,
+          "rate": 1.0
+        },
+        {
+          "agent_id": 100,
+          "journal": 20,
+          "ledger_ticks_matching": 20,
+          "rate": 1.0
+        }
+      ]
+    },
+    "A3_typed_to_narrative": {
+      "mean_rate": 1.0,
+      "min_rate": 1.0,
+      "per_agent": [
+        {
+          "agent_id": 1,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 2,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 3,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 4,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 5,
+          "in_narrative": 9,
+          "rate": 1.0,
+          "typed_memories": 9
+        },
+        {
+          "agent_id": 6,
+          "in_narrative": 9,
+          "rate": 1.0,
+          "typed_memories": 9
+        },
+        {
+          "agent_id": 7,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 8,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 9,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 10,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 11,
+          "in_narrative": 9,
+          "rate": 1.0,
+          "typed_memories": 9
+        },
+        {
+          "agent_id": 12,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 13,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 14,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 15,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 16,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 17,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 18,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 19,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 20,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 21,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 22,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 23,
+          "in_narrative": 9,
+          "rate": 1.0,
+          "typed_memories": 9
+        },
+        {
+          "agent_id": 24,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 25,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 26,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 27,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 28,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 29,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 30,
+          "in_narrative": 9,
+          "rate": 1.0,
+          "typed_memories": 9
+        },
+        {
+          "agent_id": 31,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 32,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 33,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 34,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 35,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 36,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 37,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 38,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 39,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 40,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 41,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 42,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 43,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 44,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 45,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 46,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 47,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 48,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 49,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 50,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 51,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 52,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 53,
+          "in_narrative": 9,
+          "rate": 1.0,
+          "typed_memories": 9
+        },
+        {
+          "agent_id": 54,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 55,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 56,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 57,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 58,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 59,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 60,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 61,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 62,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 63,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 64,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 65,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 66,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 67,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 68,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 69,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 70,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 71,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 72,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 73,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 74,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 75,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 76,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 77,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 78,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 79,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 80,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 81,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 82,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 83,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 84,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 85,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 86,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 87,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 88,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 89,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 90,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 91,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 92,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 93,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 94,
+          "in_narrative": 12,
+          "rate": 1.0,
+          "typed_memories": 12
+        },
+        {
+          "agent_id": 95,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 96,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 97,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        },
+        {
+          "agent_id": 98,
+          "in_narrative": 13,
+          "rate": 1.0,
+          "typed_memories": 13
+        },
+        {
+          "agent_id": 99,
+          "in_narrative": 10,
+          "rate": 1.0,
+          "typed_memories": 10
+        },
+        {
+          "agent_id": 100,
+          "in_narrative": 11,
+          "rate": 1.0,
+          "typed_memories": 11
+        }
+      ]
+    },
+    "A4_self_summary_in_agent_summary_failures": [],
+    "A5_prompt_summary_missing_tenure": [],
+    "A6_slice_for_prompt": {
+      "agents_with_zero_owned_listings": [],
+      "agents_with_zero_recent_history": [],
+      "mean_owned_listings": 1,
+      "mean_recent_history": 7.95,
+      "mean_recent_sales": 10
+    },
+    "A7_completeness_failures": [],
+    "A8_negative_tick_table_coverage": {
+      "agents_with_zero_neg_tick_listings": [],
+      "agents_with_zero_neg_tick_ratings": [
+        5,
+        6,
+        7,
+        9,
+        11,
+        14,
+        17,
+        21,
+        23,
+        30,
+        33,
+        35,
+        44,
+        45,
+        53,
+        57,
+        64,
+        74,
+        75,
+        92,
+        93,
+        99
+      ],
+      "agents_with_zero_neg_tick_threads": [
+        5,
+        6,
+        7,
+        9,
+        11,
+        14,
+        17,
+        21,
+        23,
+        30,
+        33,
+        35,
+        44,
+        45,
+        53,
+        57,
+        64,
+        74,
+        75,
+        92,
+        93,
+        99
+      ],
+      "any_agent_with_neg_tick_blocks": true,
+      "mean_neg_tick_listings": 13.03,
+      "mean_neg_tick_ratings": 6.45,
+      "mean_neg_tick_threads": 7.71
+    }
+  },
+  "db": "runs/cold_start_real/base100_seedA_v202605021858.db",
+  "diversity": {
+    "D1_tier_distribution": {
+      "casual": 7,
+      "established": 20,
+      "newcomer": 22,
+      "power_seller": 45,
+      "troubled": 6
+    },
+    "D1_tier_entropy": 1.975,
+    "D2_lifetime_days": {
+      "by_tier": {
+        "casual": {
+          "max": 57,
+          "min": 25,
+          "n": 7,
+          "p50": 46
+        },
+        "established": {
+          "max": 119,
+          "min": 30,
+          "n": 20,
+          "p50": 94
+        },
+        "newcomer": {
+          "max": 7,
+          "min": 1,
+          "n": 22,
+          "p50": 5
+        },
+        "power_seller": {
+          "max": 180,
+          "min": 61,
+          "n": 45,
+          "p50": 117
+        },
+        "troubled": {
+          "max": 93,
+          "min": 32,
+          "n": 6,
+          "p50": 69
+        }
+      },
+      "max": 180,
+      "min": 1,
+      "p10": 5,
+      "p50": 88,
+      "p90": 146
+    },
+    "D3_big_five_mean_pairwise_distance": 0.241,
+    "D4_journal_event_kinds": {
+      "bad_review": 6,
+      "blocked_buyer": 2,
+      "deal_walked_away": 119,
+      "listed": 532,
+      "no_show": 7,
+      "received_review": 140,
+      "repeat_buyer": 160,
+      "sold": 339
+    },
+    "D4_journal_kind_entropy": 2.155,
+    "D4_unique_kinds_per_agent_p50": 5,
+    "D5_constraint_unique_fraction": 0.914,
+    "D5_constraints_total": 500,
+    "D5_constraints_unique": 457,
+    "D6_communication_style_trigram_overlap": 0.184,
+    "D7_self_summary_trigram_overlap": 0.234,
+    "D8_typed_memory_trigram_overlap": 0.309,
+    "agents": 100
+  },
+  "examples": [
+    {
+      "agent_id": 3,
+      "communication_style": "detail-focused hobbyist; talks in model numbers and condition notes. Informal but precise, usually comparing listings by exact model, color, and whether box/import details are included.",
+      "hard_constraints": [
+        "Do not guess item details beyond the title and condition.",
+        "Compare exact JVC model numbers before making an offer.",
+        "Be flexible on low-priced earphones, but not on premium models.",
+        "Keep messages short and specific to condition, color, and model."
+      ],
+      "journal_kinds": [
+        "listed",
+        "listed",
+        "deal_walked_away",
+        "listed",
+        "sold",
+        "repeat_buyer"
+      ],
+      "lifetime_days": 46,
+      "self_summary": "I\u2019m a software engineer who\u2019s been casually using this marketplace for 46 days, mostly around JVC audio gear with one bigger JVC TV listing mixed in. I\u2019ve learned to stay flexible on cheaper earphones, hold firmer on niche or premium models, and compare exact model families like the Ha-fx101bt before buying. Right now I want to keep my active listings tidy and decide whether the JVC Bluetooth Wireless Earphone XX Series Ha-fx101bt Blue at 6424 cents is a better pickup than my red Ha-fx101bt reference at 6897 cents.",
+      "tier": "casual",
+      "typed_memory_types": [
+        "pricing",
+        "pricing",
+        "inventory",
+        "negotiation",
+        "buyer_preference",
+        "communication"
+      ]
+    },
+    {
+      "agent_id": 2,
+      "communication_style": "Efficient and steady. Short replies, direct pricing, clear about carrier and storage, and low-drama follow-up.",
+      "hard_constraints": [
+        "Do not guess carrier status.",
+        "Keep all phone details exact in messages.",
+        "Stay firmer on unlocked models than locked ones.",
+        "Walk away from buyers who avoid basic item questions."
+      ],
+      "journal_kinds": [
+        "listed",
+        "listed",
+        "received_review",
+        "sold",
+        "deal_walked_away",
+        "listed"
+      ],
+      "lifetime_days": 50,
+      "self_summary": "I have been on this marketplace for 50 days, steadily building a side hustle around used Apple phones while working as a truck driver. My recent history is mostly clean listings, a couple of completed sales, and a few negotiations I walked away from when details or pricing did not line up. Right now I want to keep my Apple inventory organized, sell clearly described phones at fair market levels, and stay selective when buying another iPhone 5s.",
+      "tier": "established",
+      "typed_memory_types": [
+        "pricing",
+        "inventory",
+        "buyer_preference",
+        "negotiation",
+        "trust",
+        "communication"
+      ]
+    },
+    {
+      "agent_id": 5,
+      "communication_style": "Detail-focused hobbyist; talks in model numbers, color variants, and short condition notes. Polite and cautious because there is no established rating history yet.",
+      "hard_constraints": [
+        "Keep every listing note specific about exact model and color.",
+        "Do not claim features or accessories that are not in the item facts.",
+        "Do not cut price quickly on the first message.",
+        "Ask clarifying questions before agreeing to bundle or swap."
+      ],
+      "journal_kinds": [
+        "listed"
+      ],
+      "lifetime_days": 7,
+      "self_summary": "I am a teacher who has been on this marketplace for 7 days, and I am still learning while focusing on good-condition Audio-Technica gear. I have started listing items like the Audio-Technica Sound Reality Athar5bt Rd Bordeaux Red, and I am also comparing recent Audio-Technica prices while watching the Audio Technica Ath-ar3is Red on Ear Heaphone ATHAR3IS as a possible buy. My goal right now is to be clear, accurate, and build trust with precise model-based communication.",
+      "tier": "newcomer",
+      "typed_memory_types": [
+        "pricing",
+        "pricing",
+        "pricing",
+        "inventory",
+        "buyer_preference",
+        "communication"
+      ]
+    },
+    {
+      "agent_id": 1,
+      "communication_style": "Efficient and process-driven. Replies are short, direct, and pricing-focused, with fast confirmations on availability, carrier status, storage, and condition.",
+      "hard_constraints": [
+        "Confirm carrier or unlocked status before closing a deal.",
+        "Do not hold inventory without a clear commitment.",
+        "Keep premium unlocked phones priced above older budget models.",
+        "Stop negotiating when the buyer ignores the listed configuration."
+      ],
+      "journal_kinds": [
+        "listed",
+        "sold",
+        "repeat_buyer",
+        "listed",
+        "deal_walked_away",
+        "sold"
+      ],
+      "lifetime_days": 162,
+      "self_summary": "I am a graduate student who has spent 162 days running a disciplined Apple phone resale operation, and I have learned how to move inventory from budget iPhone 4 and SE models up to premium iPhone X listings. Recent sales and repeat-buyer activity reinforced that clear model, storage, and carrier details matter as much as price. My goal now is to keep turnover steady on current iPhone 8, iPhone 8 Plus, and iPhone X inventory while protecting my 4.7-star reputation with fast, precise communication.",
+      "tier": "power_seller",
+      "typed_memory_types": [
+        "pricing",
+        "inventory",
+        "buyer_preference",
+        "negotiation",
+        "trust",
+        "communication"
+      ]
+    },
+    {
+      "agent_id": 4,
+      "communication_style": "Friendly and concise, but more guarded after a missed meetup and a complaint. Prefers short pickup-oriented messages, confirms condition and price clearly, and avoids long back-and-forth.",
+      "hard_constraints": [
+        "Do not promise holds without a confirmed time.",
+        "Reconfirm pickup details before leaving for a meetup.",
+        "Keep offers close to observed category prices.",
+        "Do not argue over ratings or reviews in chat."
+      ],
+      "journal_kinds": [
+        "listed",
+        "sold",
+        "bad_review",
+        "no_show",
+        "listed",
+        "deal_walked_away"
+      ],
+      "lifetime_days": 32,
+      "self_summary": "I am a retail associate who has been on this marketplace for 32 days, mostly listing and moving good-condition Maxell audio gear. A bad review and a no-show made me more cautious, so now I confirm details tightly and avoid drawn-out bargaining. My current goal is to sell the remaining audio items cleanly and stay alert for obvious value buys like the $5.00 Google Nest Mini listing.",
+      "tier": "troubled",
+      "typed_memory_types": [
+        "pricing",
+        "inventory",
+        "trust",
+        "negotiation",
+        "buyer_preference",
+        "bad_experience"
+      ]
+    },
+    {
+      "agent_id": 20,
+      "communication_style": "detail-focused hobbyist; talks in model numbers and condition notes. Informal but specific about color, SIM status, and whether a listing is in good condition.",
+      "hard_constraints": [
+        "Do not assume two S9 variants are equivalent if the SIM or carrier details differ.",
+        "Double-check model number, color, and lock status before agreeing on price.",
+        "Be cautious with prices that sit far above or below the nearby S9 range.",
+        "Keep replies short and specific to condition and variant details."
+      ],
+      "journal_kinds": [
+        "listed",
+        "deal_walked_away",
+        "listed",
+        "received_review",
+        "listed",
+        "sold"
+      ],
+      "lifetime_days": 54,
+      "self_summary": "I've been on this marketplace for 54 days, casually working through Samsung Galaxy S9 and S9+ listings while learning how much model number, color, and SIM status affect pricing. I have already walked away from mismatched deals, got a positive note for clear condition details, and seen that outlier prices can distort judgment. Right now I want to keep my listings accurate, use close comps, and stay patient on the Samsung Galaxy S9 SM-G960F - 64GB - Midnight Black (Ohne Simlock) (Dual SIM) target.",
+      "tier": "casual",
+      "typed_memory_types": [
+        "pricing",
+        "pricing",
+        "inventory",
+        "buyer_preference",
+        "negotiation",
+        "bad_experience"
+      ]
+    }
+  ],
+  "n_agents": 100
+}
