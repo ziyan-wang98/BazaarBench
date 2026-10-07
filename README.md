@@ -22,6 +22,7 @@ and every claim an agent makes can be checked against the platform's own record.
 <sup>4</sup>The Alan Turing Institute<br>
 <sup>\*</sup>Corresponding authors
 
+[![arXiv Paper](https://img.shields.io/badge/arXiv-2610.06748-b31b1b.svg)](https://arxiv.org/abs/2610.06748)
 [![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-BazaarBench-ffd21e.svg)](https://huggingface.co/BazaarBench)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-2f80ed.svg)](LICENSE)
 [![Python 3.10 | 3.11 | 3.12](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776ab.svg?logo=python&logoColor=white)](pyproject.toml)
@@ -179,7 +180,11 @@ All personas, conversations, addresses, listings and transactions are synthetic,
 @misc{wang2026bazaarbench,
   title  = {{BazaarBench}: Delegation Safety in Decentralized {C2C} Marketplaces Run by {LLM} Agents},
   author = {Wang, Ziyan and Shi, Shuqing and Oldfield, James and Marro, Samuele and Yu, Jialin and Torr, Philip and Du, Yali and Bibi, Adel},
-  year   = {2026}
+  year   = {2026},
+  eprint = {2610.06748},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.MA},
+  url = {https://arxiv.org/abs/2610.06748}
 }
 ```
 
